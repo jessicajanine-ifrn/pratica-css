@@ -1,0 +1,58 @@
+/* Seletor universal — reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Seletor de elemento (tipo) — afeta todas as tags <body> */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Seletor de ID — único na página */
+#cabecalho {
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Seletor de elemento — todos os <p> */
+p {
+  line-height: 1.6;
+}
+
+/* Seletor de classe — reutilizável */
+.titulo-secao {
+  color: #2c3e50;
+  margin: 20px 0 10px;
+}
+
+.texto {
+  padding: 0 20px;
+}
+
+/* Seletor de classe aplicado a itens de lista */
+.disciplina {
+  list-style: none;
+  padding: 8px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Combinação de classes — maior especificidade */
+.disciplina.destaque {
+  background-color: #fdf3d1;
+  font-weight: bold;
+}
+
+/* Seletor de ID */
+#rodape {
+  background-color: #2c3e50;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
